@@ -22,7 +22,7 @@ struct CommandParsingTests {
             "key", "type",
             "chrome", "screenshot", "describe-ui", "logs", "serve",
             "orientation", "diag-digitizer-trackpad", "review-tasks",
-            "doctor",
+            "doctor", "skills",
         ])
     }
 
