@@ -140,7 +140,7 @@ Wire JSON              Domain                   Infrastructure
 
 ## Phase 1: Domain TDD
 
-Write the failing test FIRST, in `Tests/BaguetteTests/<Context>/`.
+Write the failing test FIRST, in `Tests/AgentSimTests/<Context>/`.
 
 Patterns that already exist — match them:
 
@@ -410,7 +410,7 @@ next agent will mis-propose stale invocations.
 - [ ] User has approved the design
 
 ### Phase 1 — Domain (red → green → refactor)
-- [ ] Failing test in `Tests/BaguetteTests/<Context>/`
+- [ ] Failing test in `Tests/AgentSimTests/<Context>/`
 - [ ] Value types in `Domain/<Context>/`
 - [ ] Rich-domain method on the value (e.g. `.press(...)`)
 - [ ] If the feature introduces a Domain pure factory (`AXNode.walk`, `LineBuffer.append`, `AXFrameTransform.map`), it's covered at 100%

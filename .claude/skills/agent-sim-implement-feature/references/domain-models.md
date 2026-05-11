@@ -307,6 +307,6 @@ If you can't answer any of them concretely, the type is a struct.
 4. If it parses from the wire, add a sibling `<Name>: Gesture` that
    wraps it with `parse` + `execute`. Register on
    `GestureRegistry.standard`.
-5. Tests in `Tests/BaguetteTests/<Context>/`. Use Swift Testing
+5. Tests in `Tests/AgentSimTests/<Context>/`. Use Swift Testing
    `@Suite`/`@Test`/`#expect` (never XCTest). Test every branch of
    computed-property behaviour without booting a sim.

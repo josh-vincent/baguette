@@ -1,7 +1,7 @@
 # TDD test patterns (agent-sim)
 
 agent-sim uses **Chicago school** state-based TDD with
-**Swift Testing** — never XCTest. Tests live in `Tests/BaguetteTests/`,
+**Swift Testing** — never XCTest. Tests live in `Tests/AgentSimTests/`,
 mirroring the Domain/Infrastructure split. The full suite runs in
 ~50 ms with no booted simulator required (the private SimulatorKit
 boundary lives behind `@Mockable`).
@@ -28,7 +28,7 @@ not the rule.
 import Testing
 import Foundation
 import Mockable
-@testable import Baguette
+@testable import AgentSim
 
 @Suite("DeviceButton")
 struct DeviceButtonTests {
